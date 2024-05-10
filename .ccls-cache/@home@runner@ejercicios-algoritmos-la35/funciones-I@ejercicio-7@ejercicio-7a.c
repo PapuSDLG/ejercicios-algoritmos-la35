@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-int num_zero_to_ten() {
-  int a = rand() % 11; 
+int randomNumber() {
+  int a = rand();
   return a;
 }
 int main(int argc, char* argv[]) {
   srand(time(NULL));
-  printf("%d\n", num_zero_to_ten());
+  printf("%d\n", randomNumber());
   return 0;
 }
