@@ -1,15 +1,7 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <stdio.h>
 #include <stdlib.h>
-int main(int argc, char* argv[])
-{
+
+int main(int argc, char* argv[]){
     int x_u, y_u;
     int x_v, y_v;
     int primer_punto, segundo_punto;
