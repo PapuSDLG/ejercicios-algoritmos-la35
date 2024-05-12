@@ -6,7 +6,7 @@
 char* ruleta(int r, int b) {
   r = rand() % 37;
   char* verif = (r == b ? "true" : "false");
-  return verif;
+  return verif;    
 }
 
 int main(int argc, char* argv[]) {
