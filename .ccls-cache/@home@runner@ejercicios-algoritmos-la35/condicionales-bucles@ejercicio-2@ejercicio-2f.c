@@ -18,18 +18,19 @@ double tarjetaCredito(double x) {
 int main(int argc, char* argv[]) {
   char c = argv[1][0];
   printf("%c\n", c);
-  double x = atof(argv[2]);
+  double precio = atof(argv[2]);
+  double cantidad = atof(argv[3]);
   if (c == 'e') {
     // Efectivo
-    printf("El precio final: %f\n", efectivo(x));
+    printf("El precio final: %f\n", efectivo(precio));
   } 
   else if (c == 't') {
     // Transferencia
     printf("Escaneado!");
-    printf("El precio final: %f\n", transferencia(x));
+    printf("El precio final: %f\n", transferencia(precio));
   } 
   else if (c == 'c') {
-    printf("El precio final: %f\n", tarjetaCredito(x));
+    printf("El precio final: %f\n", tarjetaCredito(precio));
   } 
   else {
     printf("El precio final: %f\n", x);
