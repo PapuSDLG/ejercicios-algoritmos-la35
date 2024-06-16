@@ -14,5 +14,6 @@ int main(int argc, char* argv[]) {
     num = num / 10;
     printf("%d", almacenador);
   }
+  printf("\n");
   return 0;
 }
